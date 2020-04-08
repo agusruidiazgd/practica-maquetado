@@ -22,6 +22,56 @@
   src: url('fonts/Proxima\ Nova\ Extrabold.otf');
 }
 
+/*------acá empiezo yo------*/
+aside.sabores {
+  font-family: 'Proxima Nova' , sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 470px;
+  height: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #cccccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  }
+  .cadaSabor{
+    width: 130px;
+    padding: 5px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cadaSabor .svg-inline--fa{
+    color: rgb(115, 104, 153);
+    font-size: 30px;
+  }
+  .nombre{
+    width:150px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .Ingrediente{
+    margin: 0;
+    font-weight: normal;
+    font-size: 11px;
+    color: rgb(30, 30, 30)
+  }
+  .cantidad{
+    font-weight: lighter;
+    font-size: 11px;
+    color: #cccccc;
+  }
+
 /*--------estilos del hero pizza--------*/
 .hero{
   background: rgba(235,233,249,1);
@@ -167,3 +217,4 @@ button.order:hover{
   transition: background 0.9s;
 }
 /*---------estilos del hero pizza-------*/
+
