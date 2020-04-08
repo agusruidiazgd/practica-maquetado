@@ -21,6 +21,7 @@
   font-weight: 900;
   src: url('fonts/Proxima\ Nova\ Extrabold.otf');
 }
+
 /*------acá empiezo yo------*/
 aside.sabores {
   font-family: 'Proxima Nova' , sans-serif;
@@ -70,3 +71,150 @@ aside.sabores {
     font-size: 11px;
     color: #cccccc;
   }
+
+/*--------estilos del hero pizza--------*/
+.hero{
+  background: rgba(235,233,249,1);
+  background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(235,233,249,1) 38%, rgba(206,199,236,1) 97%, rgba(193,191,234,1) 100%);
+ 
+}
+
+.container{
+  display:flex;
+  margin-left:120px;
+}
+
+.description h1{
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight:bold;
+  font-size: 60px;
+  color: rgb(48, 46, 46);
+  margin-bottom: 17px;
+  margin-top: 0px;
+}
+
+/*------imagen pizza-------*/
+.pizza{
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+}
+
+.pizza > .img-pizza{
+  position:absolute;
+  bottom: -10%;
+  width: 100%;
+  padding-top: 110px;
+}
+
+/*------iconitos de ajies--------*/
+.pepper-hot{
+  font-size: 12px;
+  padding: 15px 15px 15px 0px;
+}
+
+.pepper-hot span{
+  color: rgb(29, 28, 28);
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-bottom: 7px;
+}
+
+.pepper-hot p{
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: normal;
+  color: rgb(37, 36, 36);
+}
+
+.fa-pepper-hot {
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-pepper-hot.active {
+  color: firebrick;
+}
+.fa-pepper-hot.inactive {
+  color: #999;
+}
+
+/*-----eleccion de cantidad y precio-----*/
+.modify{
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+
+.numbers{
+  width: 135px;
+  height: 32px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid #ddd7d7;
+  box-shadow: 0px 0px 50px 0px rgb(201, 199, 199);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.numbers span{
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  color: rgb(48, 46, 46);
+}
+
+.price{
+  width: 140px;
+  height: 30px;
+  border-radius: 10px 60px 60px 10px;
+  border: 1px solid #ddd7d7;
+  box-shadow: 0px 0px 50px 0px rgb(201, 199, 199);
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: lighter;
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price span{
+  color: rgb(48, 46, 46);
+}
+
+.price .number14{
+  color: rgb(209, 33, 194);
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+/*------boton para ordenar------*/
+
+.order{
+  width: 330px;
+  height: 50px;
+  color: white;
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: normal;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(90deg, rgba(145,33,209,1) 0%, rgba(219,119,163,1) 100%);
+}
+
+button.order:hover{
+  background: white;
+  border: 2px solid #cc42cc;
+  color:rgb(209, 33, 194) ;
+  cursor: pointer;
+  transition-property: background border;
+  transition: background 0.9s;
+}
+/*---------estilos del hero pizza-------*/
+
